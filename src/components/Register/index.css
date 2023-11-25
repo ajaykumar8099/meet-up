@@ -1,0 +1,71 @@
+.nav-bar {
+  display: flex;
+}
+.image-logo {
+  height: 70px;
+  width: 100px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.sub-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.heading-form {
+  font-size: 32px;
+  font-weight: 600;
+  font-family: 'roboto';
+  padding: 10px;
+}
+.name {
+  font-family: 'roboto';
+  font-weight: 500;
+  font-size: 15px;
+  color: gray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-view {
+  width: 70%;
+}
+
+.select-cls {
+  width: 90%;
+  padding: 14px;
+}
+.input-el {
+  width: 90%;
+  padding: 10px;
+}
+
+.button-cls {
+  border: none;
+  height: 36px;
+  width: 120px;
+  background-color: #3b82f6;
+  color: wheat;
+  border-radius: 7px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.error {
+  color: red;
+}
